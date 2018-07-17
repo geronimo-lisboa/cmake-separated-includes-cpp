@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( YourSolution )
+set(my_includes "./includes/foo.h" "./includes/bar.h") 
+set(my_cpps "./cpps/main.cpp")
+add_executable(yourExec ${my_includes} ${my_cpps}) 
+include_directories("./includes")
